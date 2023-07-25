@@ -3,6 +3,7 @@ import Welcome from "./Pages/Welcome";
 import Products from "./Pages/Products";
 import { CLIENT_LONG_PASSWORD } from "mysql/lib/protocol/constants/client";
 import MainHeader from "./Components/MainHeaders";
+import Footer from "./Components/Footer";
 import ProductDetail from "./Pages/ProductDetail";
 import "./App.css"
 
@@ -28,6 +29,7 @@ function App() {
         </Switch>
         
       </main>
+      <Footer/>
 
     </div>
   );

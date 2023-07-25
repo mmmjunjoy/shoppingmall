@@ -8,7 +8,15 @@ const Welcome = () => {
       <div >
         <section>
           <h1>The Welcome page</h1>
-          <h2>Sale s</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2><h2>Sale season</h2>
+          <h2>Sale season</h2>
+          <h2>Sale season</h2>
           <Route path ="/welcome/new-user">
             <p>Welcome. new user!</p>
           </Route>
