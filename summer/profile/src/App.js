@@ -5,6 +5,7 @@ import { CLIENT_LONG_PASSWORD } from "mysql/lib/protocol/constants/client";
 import MainHeader from "./Components/MainHeaders";
 import Footer from "./Components/Footer";
 import ProductDetail from "./Pages/ProductDetail";
+
 import "./App.css"
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
       <main>
         <Switch>
           <Route path ="/" exact>
-            <Redirect to ="/welcome"/>
+            <Redirect to ="/productdetail"/>
           </Route>
-          <Route path="/welcome">
+          <Route path="/welcome" exact>
             <Welcome/>
           </Route>
           <Route path="/products" exact>
@@ -25,6 +26,10 @@ function App() {
           <Route path = "/products/:productIds">
             <ProductDetail/>
           </Route>
+          <Route path="/welcome/:word" >
+            <Welcome/>
+          </Route>
+                    
 
         </Switch>
         

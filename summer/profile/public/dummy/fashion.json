@@ -1,0 +1,37 @@
+[
+    {
+        "idx":"1",
+        "brandname":"diadora",
+        "deep":"남성 테니스 브라운 반팔",
+        "price":"55000"
+
+    },
+    {
+        "idx":"2",
+        "brandname":"nike",
+        "deep":"여성 5인치 검정 반바지",
+        "price":"37000"
+
+    },
+    {
+        "idx":"3",
+        "brandname":"adidas",
+        "deep":"남성 삼선 검정 반팔",
+        "price":"47000"
+
+    },
+    {
+        "idx":"4",
+        "brandname":"nike",
+        "deep":"남성 검정 로고 반팔",
+        "price":"28000"
+
+    },
+    {
+        "idx":"5",
+        "brandname":"diadora",
+        "deep":"남성 테니스 흰색 반팔",
+        "price":"55000"
+
+    }
+]
