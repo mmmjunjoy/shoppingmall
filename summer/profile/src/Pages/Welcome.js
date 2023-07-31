@@ -58,7 +58,7 @@ const Welcome = () => {
             
             return(
               <div>
-                productid = {product.deep}
+                product설명 = {product.brandname}___{product.deep}
               </div>
             )
           })}
