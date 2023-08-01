@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink } from "react-router-dom";
 import SidebarItem from "./SidebarItem";
+import "../styles/side.css"
 
 function Sidebar(){
     const menus = [
@@ -10,7 +11,17 @@ function Sidebar(){
     ];
 
     return(
-        <div>
+        <div className="Side">
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            <p>품목 , 브랜드</p>
+            
+     
             {menus.map((menu,index)=>{
                 return(
                     <NavLink to ={menu.path} key ={index}>

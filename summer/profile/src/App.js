@@ -7,12 +7,14 @@ import Footer from "./Components/Footer";
 import ProductDetail from "./Pages/ProductDetail";
 import Sidebar from "./Components/Sidebar";
 import "./App.css"
+import SubHeader from "./Components/SubHeader";
 
 function App() {
   return (
     <div className="App">
       <MainHeader/>
-      <div className="Side">
+      <SubHeader/>
+      <div className="sidebars">
         <Sidebar/>
 
       </div>
