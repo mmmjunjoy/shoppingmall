@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/side.css"
 
-function SidebarItem({menu}){
+function SidebarItem({menux}){
     return(
-        <div>
-            <p>{menu.name}</p>
+        <div className="side">
+            <li>{menux.name}</li>
         </div>
     )
 }

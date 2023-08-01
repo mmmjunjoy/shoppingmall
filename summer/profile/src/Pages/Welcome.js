@@ -4,6 +4,7 @@ import React ,{useState ,useEffect ,createContext} from "react";
 import {Route ,useParams} from "react-router-dom";
 
 import axios from "axios";
+import "../styles/welcome.css"
 
 
 //params.word는 여기서 쓸 수 있는 사용자의 값인거 같다.
@@ -39,7 +40,7 @@ const Welcome = () => {
 
    
     return (
-      <div >
+      <div className="Mainwelcome" >
         <section>
           
         
@@ -49,10 +50,8 @@ const Welcome = () => {
           <h2>Sale season</h2>
           <h2>Sale season</h2>
           <h2>Sale season</h2>
-          <h2>Sale season</h2>
-          <h2>Sale season</h2>
-          <h2>Sale season</h2>
-          <h2>Sale season</h2>
+        
+         
           <h2>{word}</h2>
           {searchData.map((product) => {
             

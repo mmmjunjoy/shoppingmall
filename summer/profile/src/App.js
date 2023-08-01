@@ -12,9 +12,13 @@ function App() {
   return (
     <div className="App">
       <MainHeader/>
-      <Sidebar></Sidebar>
+      <div className="Side">
+        <Sidebar/>
 
-      <main>
+      </div>
+     
+
+      <main className="center">
         <Switch>
           <Route path ="/" exact>
             <Redirect to ="/welcome"/>

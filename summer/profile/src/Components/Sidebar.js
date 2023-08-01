@@ -1,5 +1,5 @@
 import React from "react";
-import {Link } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import SidebarItem from "./SidebarItem";
 
 function Sidebar(){
@@ -13,10 +13,10 @@ function Sidebar(){
         <div>
             {menus.map((menu,index)=>{
                 return(
-                    <Link to ={menu.path} key ={index}>
+                    <NavLink to ={menu.path} key ={index}>
                         <SidebarItem
-                            menu = {menu}/>
-                    </Link>
+                            menux = {menu}/>
+                    </NavLink>
                 )
             })}
         </div>
