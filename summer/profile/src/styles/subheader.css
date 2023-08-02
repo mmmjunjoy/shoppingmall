@@ -1,25 +1,28 @@
 
 .subs{
-    float:center;
-    width: 50%;
+    float:left;
 }
 
-.loginclick{
-    float: left;
+.loginclicks{
+    float:left;
     margin-left:-30px;
+    margin-top: -20px;
+
 
 }
 
 .sublink{
-    float: left;
-    margin-top: 25px;
-    margin-left: 10px;
+    float:left;
+    margin-top: 7px;
+    margin-left: 20px;
+
 
 }
 
 .subnav{
     border: 2px solid #dad6d6b7;
-    height:80px;
+    height: 60px;
+
   
 }
 
@@ -34,5 +37,5 @@
 .subborder{
     margin-left: 10px;
     border-right: 1px solid rgb(196, 194, 194);
-    
+    padding-right: 10px;
 }

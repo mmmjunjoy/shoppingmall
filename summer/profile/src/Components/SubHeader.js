@@ -8,12 +8,10 @@ const SubHeader = () => {
             <nav className="subnav">
                 <ul > 
                     <div className="subs">
-                        <div className="loginclick" >
-                            <div >
-                                <h2 ><button className="loginbutton">로그인</button></h2>
-                            </div>
+                        <div className="loginclicks" >
                         
-                           
+                                <h2 ><button className="loginbutton">로그인</button></h2>
+                                
                         </div>
                         
                         
