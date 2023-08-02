@@ -8,6 +8,7 @@ import ProductDetail from "./Pages/ProductDetail";
 import Sidebar from "./Components/Sidebar";
 import "./App.css"
 import SubHeader from "./Components/SubHeader";
+import Rankpage from "./Pages/Ranking";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path = "/products/:productIds">
             <ProductDetail/>
+          </Route>
+          <Route path ="/ranking">
+            <Rankpage/>
           </Route>
          
                     
