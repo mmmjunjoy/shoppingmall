@@ -38,6 +38,9 @@
   margin-left: 20px;
   
 }
+.searchbuttons{
+  float:left;
+}
 
 #searchbutton{
   float:left;
@@ -63,4 +66,10 @@
   color:aliceblue;
 }
 
+.popularshow{
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 30px;
+  float:left;
+}
 

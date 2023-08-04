@@ -4,10 +4,17 @@ import React , {useState} from "react";
 
 const MainHeader =() =>{
     const [words,setWord] = useState("");
-
+    //인기검색어
+    const [number,setNumber] = useState(1);
+    const loop = setInterval(()=>{
+        console.log("number",number);
+        setNumber(number+1);
+        if(number === 100) clearInterval(loop);
+    }, 3000);
     const onSubmit = async () => {
         window.location.href ="/welcome/" + words;
     };
+
     return(
         <header className={classes.header}>
             <nav className={classes.navo}>
@@ -26,8 +33,13 @@ const MainHeader =() =>{
                                 type="search" 
                                 placeholder="2023 시즌오프 최대 80% 할인"/> 
                             </div>
-                            <div>
+                            <div className={classes.searchbuttons}>
                                 <button id = {classes.searchbutton} type="button" onClick={() => {onSubmit();}}>클릭</button>
+                           
+                                
+                            </div>
+                            <div className={classes.popularshow}>
+                                {number} 등 :
                             </div>
                           
                         </div>
