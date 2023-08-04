@@ -22,6 +22,36 @@ function Rankpage(){
                 <div className="srd1">
                     무신사 랭킹을 알려드립니다.
                 </div>
+                <div className="srd2">
+                    <button className="jasebutton">자세히 보기</button>
+
+                </div>
+             
+            </div>
+            <div className="thirdrankdiv">
+                <div className="trd1">
+                    <strong>기간 분류</strong>
+                </div>
+                <div className="trd2">
+                    <button className="nolinebutton" >
+                        실시간
+                    </button>
+                    <button className="nolinebutton" >
+                        일간
+                    </button>
+                    <button className="nolinebutton" >
+                        주간
+                    </button>
+                    <button className="nolinebutton" >
+                        월간
+                    </button>
+                    <button className="nolinebutton" >
+                        3개월
+                    </button>
+                    
+                    
+
+                </div>
              
             </div>
             
