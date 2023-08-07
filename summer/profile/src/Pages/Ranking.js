@@ -54,6 +54,10 @@ function Rankpage(){
                 </div>
              
             </div>
+            <div className="detailimage">
+                <img src ="/assets/balenciaga.jpg"/>
+
+            </div>
             
         </div>
        </main>
