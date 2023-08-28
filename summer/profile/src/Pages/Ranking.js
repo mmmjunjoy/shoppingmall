@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/ranking.css"
+import Itemcomp  from "../Components/itemcomponent";
 
 function Rankpage(){
     return(
@@ -55,7 +56,8 @@ function Rankpage(){
              
             </div>
             <div className="detailimage">
-                <img src ="/assets/balenciaga.jpg"/>
+                <Itemcomp/>
+              
 
             </div>
             

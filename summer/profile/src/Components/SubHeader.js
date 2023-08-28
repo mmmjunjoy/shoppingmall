@@ -1,8 +1,12 @@
-import {NavLink ,Link} from "react-router-dom"
+import {NavLink ,Link } from "react-router-dom"
 import "../styles/subheader.css"
 import React , {useState} from "react";
 
 const SubHeader = () => {
+    function handlelogin(e){
+        window.location.href = "/login"
+
+    }
     return(
         <header >
             <nav className="subnav">
@@ -10,7 +14,7 @@ const SubHeader = () => {
                     <div className="subs">
                         <div className="loginclicks" >
                         
-                                <h2 ><button className="loginbutton">로그인</button></h2>
+                                <h2 ><button className="loginbutton" onClick={handlelogin}>로그인</button></h2>
                                 
                         </div>
                         

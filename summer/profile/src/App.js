@@ -9,6 +9,7 @@ import Sidebar from "./Components/Sidebar";
 import "./App.css"
 import SubHeader from "./Components/SubHeader";
 import Rankpage from "./Pages/Ranking";
+import Login from "./Pages/login";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route path ="/ranking">
             <Rankpage/>
+          </Route>
+          <Route path ="/login">
+            <Login/>
           </Route>
          
                     
