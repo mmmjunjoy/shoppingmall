@@ -57,6 +57,7 @@ function Rankpage(){
             </div>
             <div className="detailimage">
                 <Itemcomp/>
+                <Itemcomp/>
               
 
             </div>

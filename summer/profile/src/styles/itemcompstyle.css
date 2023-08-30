@@ -1,11 +1,9 @@
 .itembox{
     border:1px solid rgb(184, 180, 180);
+    width:200px;
+    height:250px;
 }
 
-.itemimg{
-    padding:10px;
-
-}
-.iteminfo{
-    padding: 10px;
+.iteminnerbox{
+    margin: 10%;
 }
